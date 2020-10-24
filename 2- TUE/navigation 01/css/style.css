@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  list-style: none;
+  background: teal;
+}
+ul li {
+  padding: 10px;
+}
+ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: sans-serif;
+}

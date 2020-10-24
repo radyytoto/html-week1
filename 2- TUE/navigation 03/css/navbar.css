@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav {
+    background: #119ec2;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+ul li {
+    padding: 15px;
+    text-transform: uppercase;
+}
+ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+ul li:hover {
+    background: #e9b034;
+}
+nav ul:nth-child(2) {
+    margin-right: 70px;
+}
